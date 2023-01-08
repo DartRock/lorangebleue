@@ -2,9 +2,9 @@
 
 const btnSuccess = document.querySelector(".btn")
 
-btnSuccess.addEventListener("click", () => {
-    
-})
+btnSuccess.addEventListener("click", submitHandler)
+
+// const submitHandler 
 
 // const user = {
 //     firstName: "name",
