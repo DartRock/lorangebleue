@@ -1,5 +1,10 @@
 // console.log('zalupa');
 
+const btnSuccess = document.querySelector(".btn")
+
+btnSuccess.addEventListener("click", () => {
+    
+})
 
 // const user = {
 //     firstName: "name",
