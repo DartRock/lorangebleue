@@ -186,3 +186,20 @@ color: rgb(31, 31, 31);
     opacity: 0;
     transition: opacity 150ms linear;
 }
+
+.error {margin: 15px auto;
+    font-size: 23px;
+    color: #b80000;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 150ms linear;}
+
+.error-hidden {opacity: 0;
+    transition: opacity 150ms linear;}
+
+    .star {
+        font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #ff5630;
+    }
