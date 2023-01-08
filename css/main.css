@@ -173,3 +173,16 @@ background-color: rgb(251, 253, 255);
 color: rgb(31, 31, 31);
 }
 
+.success {
+    margin: 15px auto;
+    font-size: 23px;
+    color: #00b809;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 150ms linear;
+}
+
+.success-hidden {
+    opacity: 0;
+    transition: opacity 150ms linear;
+}

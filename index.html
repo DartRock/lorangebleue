@@ -19,16 +19,17 @@
                 </div>
                 <div class="form-wrapper">
                     <p class="form-text"><span class="form-text-orange">Remplissez ce formulaire pour participer au tirage au sort</span> et tentez de gagner 1 an d'abonnement dans votre salle l'orange bleue Nontron.</p>
-                    <form class="form" action="#">
-                        <label for=""><span class="form-lebel-text">Prénom</span><input type="text" placeholder="Ton prénom"></label>
+                    <form class="form">
+                        <label for=""><span class="form-lebel-text">Prénom</span><input class="firstName" name="firstName" type="text" placeholder="Ton prénom"></label>
                         
-                        <label for=""><span class="form-lebel-text">Nom</span><input type="text" placeholder="Ton nom"></label>
+                        <label for=""><span class="form-lebel-text">Nom</span><input class="lastName" name="lastName" type="text" placeholder="Ton nom"></label>
                         
-                        <label for=""><span class="form-lebel-text">Email</span><input type="email" placeholder="email@email.com"></label>
+                        <label for=""><span class="form-lebel-text">Email</span><input class="email" name="email" type="email" placeholder="email@email.com"></label>
                         
-                        <label for=""><span class="form-lebel-text">Téléphone</span><input type="text" placeholder="+33 612345678"></label>
+                        <label for=""><span class="form-lebel-text">Téléphone</span><input class="phone" name="phone" type="text" placeholder="+33 612345678"></label>
                         
                         <button type="submit" class="btn">JE PARTICIPE</button>
+                        <p class="success success-hidden">Merci de votre participation</p>
                     </form>
                 </div>
             </div>
